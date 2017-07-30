@@ -69,4 +69,18 @@ dependencies {
     //响应式编程
     compile "io.reactivex.rxjava2:rxjava:$rootProject.rxjavaVersion"
     compile ("io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion")
+
+    //debug with chrome
+    compile "com.facebook.stetho:stetho:$rootProject.stethoVersion"
+
+    //leak check
+    debugCompile "com.squareup.leakcanary:leakcanary-android:$rootProject.leakCanaryVersion"
+    releaseCompile "com.squareup.leakcanary:leakcanary-android-no-op:$rootProject.leakCanaryVersion"
+    testCompile "com.squareup.leakcanary:leakcanary-android-no-op:$rootProject.leakCanaryVersion"
+
+    //log
+    compile "com.orhanobut:logger:$rootProject.loggerVersion"
+
+    //debug database
+    debugCompile 'com.amitshekhar.android:debug-db:1.0.1'
 }

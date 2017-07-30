@@ -49,4 +49,7 @@ ext {
     daggerVersion = '2.10'
     retrolambdaVersion = '2.5.1'
     retrofitVersion = '2.2.0'
+    stethoVersion ='1.5.0'
+    leakCanaryVersion='1.5.1'
+    loggerVersion='2.1.1'
 }
